@@ -156,20 +156,34 @@
 
     </RelativeLayout>
 
+
     <android.widget.Button
+        android:id="@+id/calculatebmi"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:id="@+id/calculatebmi"
         android:layout_alignParentBottom="true"
-        android:textSize="15sp"
-        android:layout_marginBottom="15dp"
-        android:text="Calculate Your BMI"
-        android:textColor="@color/white"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:layout_marginBottom="73dp"
         android:background="@drawable/buttonbackground"
+        android:text="Calculate Your BMI"
+        android:textColor="@color/white"
+        android:textSize="15sp"
         android:textStyle="bold" />
 
+    <android.widget.Button
+        android:id="@+id/viewRecord"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/buttonbackground"
+        android:text="View Record"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
     <RelativeLayout
         android:layout_width="150dp"
